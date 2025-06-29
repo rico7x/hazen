@@ -3,15 +3,126 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hazen Edu | Bimbel Berkualitas</title>
+  <title>Hazen Edu | Bimbingan Belajar dan Les Privat</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
 </head>
 <body>
-  <header>
-    <h1>Hazen Edu</h1>
-    <p>Bukan soal jenius, tapi serius. Bareng Hazen Edu, pasti tuntas.</p>
-    <a href="#kontak" class="btn">Hubungi Kami</a>
+  <header class="navbar">
+    <div class="logo-area">
+      <a href="#home">
+      <img src="images/logo.png" alt="Logo Hazen Edu" class="logo" />
+      </a>
+    </div>
+    <nav class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#program-section">Program</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="cta">
+      <a href="https://snbt.hazenedu.web.id" class="btn-daftar">Login CBT</a>
+    </div>
   </header>
+
+  <section id="home" class="hero" style="padding-top: 5rem;">
+    <div class="hero-text">
+      <h1>Hazen Edu, bikin belajarmu semakin seru!!</h1>
+      <p>Gabung dengan Hazen Edu! Tingkatkan Prestasi Akademikmu, Raih PTN Favoritmu!!</p>
+      <a href="#kontak" class="btn-primary">Hubungi Kami</a>
+      <a href="https://wa.me/6285810797190" class="btn-w" target="_blank">Chat via WhatsApp</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero-siswa.jpg" alt="Ilustrasi Siswa" class="images" />
+    </div>
+  </section>
+
+  <section id="fitur" class="features" style="margin-bottom: 3rem;">
+    <div class="feature">
+      <img src="images/diagnose.png" alt="Sesuai Kebutuhan">
+      <h3>Tes Kemampuan Dasar</h3>
+      <p>Banyak siswa yang belajar tapi tetep aja ga paham. Itu karena ada materi yang bolong tuh. Cek dulu dengan Tes Kemampuan Dasar Hazen</p>
+    </div>
+    <div class="feature">
+      <img src="images/personalized.png" alt="Privat">
+      <h3>Pendekatan Personal</h3>
+      <p>Dengan jumlah siswa yang sedikit per kelas, membuat guru bisa melakukan pendekatan lebih personal. Setiap siswa akan merasa dianggap, ga bakal diabaikan</p>
+    </div>
+    <div class="feature">
+      <img src="images/zen-fun.png" alt="Fun learning">
+      <h3>Zen Fun Learning</h3>
+      <p>Pembelajaran di Hazen yang santai dan menyenangkan lebih membuat siswa terlibat dalam proses pembelajaran.
+        Meningkatkan tingkat penyerapan materi secara efektif dan efisien.
+      </p>
+    </div>
+  </section>
+
+  <section id="program-section" style="padding-bottom: 10px; margin-bottom: 0px;">
+    <h2>Program Belajar</h2>
+    <p>Hazen Edu memiliki berbagai program unggulan untuk siswa SD, SMP, SMA hingga alumni. Setiap program dirancang untuk membantu siswa memahami konsep dan menghadapi ujian dengan percaya diri.</p>
+  </section>
+
+  <section class="programs">   
+  <div class="program">
+    <img src="images/program-reguler.png" alt="Reguler">
+    <h3>Program Reguler</h3>
+    <p>
+      Program Reguler SD-SMP-SMA berfokus pada meningkatkan kemampuan siswa dalam memahami materi pelajaran di sekolah.
+    </p>
+
+    <div class="program-detail hidden">
+      <p>
+        Sehingga siswa akan mengalami peningkatan nilai akademik yang signifikan.
+        Sebelum dimulai belajar, siswa akan dites kemampuan dasarnya.
+        Tes inilah yang akan menentukan apa yang akan dipelajari setiap siswa selanjutnya.
+      </p>
+
+      <a href="images/reguler.jpg" data-fancybox="program" data-caption="Brosur Program Reguler">
+        <img src="images/reguler.jpg" alt="Brosur Reguler" class="brosur" />
+      </a>
+      <a href="images/reguler-2.jpg" data-fancybox="program" data-caption="Brosur Program Reguler">
+        <img src="images/reguler-2.jpg" alt="Brosur Reguler" class="brosur" />
+      </a>
+      <p style="text-align: center;">klik untuk memperbesar</p>
+    </div>
+
+    <button class="toggle-btn">Selengkapnya</button>
+  </div>
+
+  <!-- Program lainnya tetap -->
+  <div class="program">
+    <img src="images/program-calistung.png" alt="Calistung">
+    <h3>Program Calistung</h3>
+    <p>
+      Program Calistung dikhususkan untuk membantu anak belajar Membaca, Menulis dan Menghitung.
+      Program ini dirancang dengan pendekatan-pendekatan yang sesuai dengan kebutuhan siswa.
+    </p>
+  </div>
+
+  <div class="program">
+    <img src="images/program-alumni.png" alt="Alumni" style="max-width: 100px;">
+    <h3>Program Alumni</h3>
+    <p>Pembelajaran di Hazen yang santai dan menyenangkan lebih membuat siswa terlibat dalam proses pembelajaran.
+      Meningkatkan tingkat penyerapan materi secara efektif dan efisien.
+    </p>
+  </div>
+
+  <div class="program">
+    <img src="images/test-ptn.png" alt="SNBT" style="max-width: 120px;">
+    <h3>Program Persiapan SNBT</h3>
+    <p>Pembelajaran di Hazen yang santai dan menyenangkan lebih membuat siswa terlibat dalam proses pembelajaran.
+      Meningkatkan tingkat penyerapan materi secara efektif dan efisien.
+    </p>
+  </div>
+</section>
+
 
   <section id="tentang">
     <h2>Tentang Kami</h2>
@@ -21,23 +132,54 @@
   <section id="testimoni">
     <h2>Testimoni</h2>
     <blockquote>
-      “Anak saya awalnya sulit memahami matematika. Setelah ikut Hazen Edu, nilainya naik drastis!”<br>
-      <small>– Ibu Ratna, orang tua siswa</small>
+      "Anak saya awalnya sulit memahami matematika. Setelah ikut Hazen Edu, nilainya naik drastis!"
+      <br><small>– Ibu Ratna, orang tua siswa</small>
     </blockquote>
     <blockquote>
-      “Belajarnya seru, gurunya sabar. Aku jadi lebih percaya diri di sekolah.”<br>
-      <small>– Nabila, siswa SMP</small>
+      "Belajarnya seru, gurunya sabar. Aku jadi lebih percaya diri di sekolah."
+      <br><small>– Nabila, siswa SMP</small>
     </blockquote>
   </section>
 
   <section id="kontak">
     <h2>Kontak Kami</h2>
-    <p>Jl. Pendidikan No. 123, Bandung</p>
-    <a href="https://wa.me/6281234567890" class="btn" target="_blank">Chat via WhatsApp</a>
+    <p>Sarijadi Blok 12 No. 80, Sarijadi, Bandung</p>
+    <div class="map-container">
+      <iframe width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?q=Hazen%20Edu&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+    </div>
+    <a href="https://wa.me/6285810797190" class="btn-w" target="_blank">Chat via WhatsApp</a>
   </section>
 
   <footer>
     <p>&copy; 2025 Hazen Edu. All rights reserved.</p>
   </footer>
+
+
+  <script>
+  document.querySelectorAll('.toggle-btn').forEach(function(btn) {
+  btn.addEventListener('click', function () {
+    const card = btn.closest('.program');
+
+    // Tutup semua dulu
+    document.querySelectorAll('.program').forEach(function(p) {
+      if (p !== card) p.classList.remove('expand');
+    });
+
+    // Toggle pada kartu ini
+    card.classList.toggle('expand');
+
+    // Toggle isi tambahan
+    const detail = card.querySelector('.program-detail');
+    const visible = card.classList.contains('expand');
+    detail.style.display = visible ? 'block' : 'none';
+
+    btn.textContent = visible ? 'Tutup' : 'Selengkapnya';
+  });
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+
 </body>
 </html>
