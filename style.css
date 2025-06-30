@@ -100,6 +100,14 @@ body {
     outline: 3px solid rgb(213, 213, 213);
 }
 
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap; /* agar tetap bisa turun kalau benar-benar sempit */
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .btn-primary {
   background: #007bff;
 }
@@ -408,6 +416,17 @@ footer {
     font-size: 1.8rem;
   }
 
+    .hero-cta {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-cta .btn {
+    flex: 1 1 auto; /* biar tombol bisa mengecil & tetap sejajar */
+    min-width: 130px; /* jaga biar gak terlalu kecil */
+    text-align: center;
+  }
   section h2 {
     font-size: 1.5rem;
   }
